@@ -1,0 +1,47 @@
+body, html {
+    height: 100%
+}
+
+.bg {
+    background-color: #6A501E;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+  font-family: Cardo;
+}
+
+h3 {
+  text-align: right;
+  color: #000000;
+}
+
+h4 {
+  text-align: center;
+  color: #ffffff;
+  font-family: Raleway;
+}
+
+.btn {
+  color: #ffffff;
+  background: #d35400;
+  margin: 1em 0 0 0;
+}
+
+.quoteRow {
+  padding: 0 0 2em 0;
+}
+
+#quote {
+  background: #ede7b1;
+  margin: 6em 0 0 0;
+}
+
+#tweetQuote {
+  font-size:4em;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- Random Quote Generator
+     FreeCode Camp Exercise
+     Mark Allen - 2017
+-->
+<html>
+<head>
+<!-- Load font, script, stylesheet, Bootstrap 3 and jQuery 3 -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+  <title>
+    Random Quote Generator
+  </title>
+</head>
+
+<body class="bg">
+  <div class="container">
+    <div class="row quoteRow">
+      <div class="col-xs-2"></div>
+      <div id="quote" class="col-xs-8 well">
+        <h1 id="quoteText"></h1>
+        <em><h3 id="quoteAuthor"></h3></em>
+        <div class="row">
+          <div class="col-xs-12 ">
+            <a class="button pull-left" id="tweetQuote" title="Tweet this quote!" target="_blank">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <button id="quoteGETJSON" class="btn pull-right" type="submit"><h4>Get a new quote!</h4></button>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-2"></div>
+    </div>
+  </div>
+</body>
+
+</html>
